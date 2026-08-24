@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sicurezza Cantiere — Via Roncale 6, Lecco</title>
+<title>Documenti Sicurezza Cantiere</title>
 <link rel="manifest" href="manifest.webmanifest" />
 <meta name="theme-color" content="#0b3d91" />
 <style>
@@ -106,8 +106,8 @@
   <button id="installBtn">Aggiungi alla schermata Home</button>
 
   <div class="cantiere">
-    <h2 id="cantiereNome">Manutenzione straordinaria — Via Roncale 6</h2>
-    <p id="cantiereIndirizzo">Via Roncale 6, Lecco (LC) · CSE Geom. Massimo Pirola</p>
+    <h2 id="cantiereNome">Nome cantiere</h2>
+    <p id="cantiereIndirizzo">Indirizzo cantiere — aggiorna questi campi per ogni sito</p>
   </div>
 
   <ul class="docs" id="docsList">
@@ -123,11 +123,12 @@
   // === ELENCO DOCUMENTI ===
   // Aggiungi/rimuovi righe qui. "file" deve puntare a un PDF dentro /documenti/
   const DOCUMENTI = [
-    { titolo: "PSC — Piano di Sicurezza e Coordinamento", file: "documenti/PSC_Piano_Sicurezza_Coordinamento.pdf", sigla: "PSC" }
-    // Aggiungi qui altri documenti quando disponibili, es:
-    // { titolo: "POS impresa IF Edil World", file: "documenti/POS_IF_Edil_World.pdf", sigla: "POS" },
-    // { titolo: "POS impresa Orrù Stefano", file: "documenti/POS_Orru.pdf", sigla: "POS" },
-    // { titolo: "Notifica preliminare ASL/DPL", file: "documenti/Notifica_preliminare.pdf", sigla: "NOT" },
+    { titolo: "PSC — Piano di Sicurezza e Coordinamento", file: "documenti/PSC.pdf", sigla: "PSC" },
+    { titolo: "POS — Piano Operativo di Sicurezza", file: "documenti/POS.pdf", sigla: "POS" },
+    { titolo: "DUVRI", file: "documenti/DUVRI.pdf", sigla: "DUV" },
+    { titolo: "Planimetria di cantiere", file: "documenti/Planimetria.pdf", sigla: "PLA" },
+    { titolo: "Nomine e deleghe sicurezza", file: "documenti/Nomine.pdf", sigla: "NOM" },
+    { titolo: "Registro formazione lavoratori", file: "documenti/Formazione.pdf", sigla: "FOR" }
   ];
 
   const list = document.getElementById('docsList');
