@@ -7,7 +7,7 @@ const FILES_TO_CACHE = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './documenti/PSC_Piano_Sicurezza_Coordinamento.pdf'
+  './documenti/PSC.pdf'
 ];
 
 // Installazione: scarica e salva tutto in cache
